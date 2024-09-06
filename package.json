@@ -1,0 +1,32 @@
+{
+  "name": "demo-project",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@emotion/react": "^11.13.3",
+    "@emotion/styled": "^11.13.0",
+    "@mui/icons-material": "^6.0.1",
+    "@mui/material": "^6.0.1",
+    "@reduxjs/toolkit": "^2.2.7",
+    "axios": "^1.7.7",
+    "mui-one-time-password-input": "^2.0.3",
+    "next": "14.2.7",
+    "next-auth": "^4.24.7",
+    "next-redux-wrapper": "^8.1.0",
+    "react": "^18",
+    "react-dom": "^18",
+    "react-hook-form": "^7.53.0",
+    "react-redux": "^9.1.2",
+    "sonner": "^1.5.0"
+  },
+  "devDependencies": {
+    "eslint": "^8",
+    "eslint-config-next": "14.2.7"
+  }
+}
