@@ -2,7 +2,8 @@ import React, { useState } from 'react'
 import { signIn } from "next-auth/react";
 import { Button, Container, FormLabel, Stack, TextField } from '@mui/material';
 import { toast } from 'sonner';
-import { MuiOtpInput } from 'mui-one-time-password-input';
+import dynamic from 'next/dynamic';
+const  MuiOtpInput = dynamic(() => import('mui-one-time-password-input'), { ssr: false });
 
 
 const OtpPopup = (props) => {
